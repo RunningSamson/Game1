@@ -8,6 +8,7 @@ public class Game1EditorTarget : TargetRules
 	public Game1EditorTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
+		bUsesSteam = true;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 		ExtraModuleNames.AddRange( new string[] { "Game1" } );
 	}
