@@ -17,7 +17,7 @@
 		},
 		{
 			"Name": "AdvancedSteamSessions",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "OnlineFramework",
@@ -37,10 +37,6 @@
 				"IOS",
 				"TVOS"
 			]
-		},
-		{
-			"Name": "OnlineSubsystemNull",
-			"Enabled": false
 		}
 	]
 }
